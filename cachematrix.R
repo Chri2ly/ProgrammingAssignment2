@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions will be able to generate the inverse of a matrix x while it tries to avoid time-consuming calculations
 
-## Write a short comment describing this function
+## This function sets and gets the vector, and sets and gets the inverse of the matrix x
 
 makeCacheMatrix <- function(x = matrix()) {
   s <- NULL
@@ -17,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getinverse = getinverse)
 }
 
-## Write a short comment describing this function
+## This functions checks to see if the inverse is already calculated
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
